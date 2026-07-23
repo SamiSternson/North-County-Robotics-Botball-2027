@@ -9,7 +9,7 @@ import sys
 DEFAULT_FILEPATH = input("Enter the path to the file you are sending: ")
 DEFAULT_HOST = "192.168.125.1"
 DEFAULT_SSH_USER = "kipr"
-DEFAULT_REMOTE_DIR = "/home/kipr/Documents/KISS/scripts"
+DEFAULT_REMOTE_DIR = f"/home/kipr/Documents/KISS/scripts"
 DEFAULT_PORT = 22
 DEFAULT_KEY = None
 # --------------------------------------------------------------------------
